@@ -1,42 +1,61 @@
+
+
+h1, h2, h3, h4 {
+    font-family: "Nunito Sans", sans-serif;
+}
+
 body {
     font-family: 'Arial', 'Helvetica', sans-serif;
-    background-color: #5c80f7;
+    background-color: #F9F9F9;
     margin: 0;
     padding: 0;
-    line-height: 1 ;
 }
 
 
 header {
-    background-color: #5c80f7;; 
-    color: white;
+    font-weight: bold;
     text-align: center;
-    padding: 1.00 em 0;
+    background-color: #A2D2FF;
+    margin-bottom: 1em;
+}
+
+.container_header {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    font-weight: bold;
+    background-color: #A2D2FF;
+    color: white;
 }
 
 header p {
     margin: 0.5em 0 0;
+    color: white;
     font-size: 1.2em;
 }
 
 
-main {
+.container-validation {
     padding: 2em;
-    max-width: 800px;
     margin: auto;
-    background-color: #f7f4f6;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
+.main {
+    max-width: 800px;
+    margin: auto;
+}
+
 section header h2 {
-    color: #eaecf3;
+    color: #A2D2FF;
     font-size: 1.9em;
     margin-bottom: 1em;
 }
@@ -71,7 +90,7 @@ input[type="checkbox"] {
 
 button {
     padding: 0.8em 1.2em;
-    background-color: #5c80f7;;
+    background-color: #A2D2FF;;
     color: white;
     border: none;
     border-radius: 4px;
@@ -90,8 +109,7 @@ progress {
 }
 
 footer {
-    background-color: #5c80f7;;
-    color: white;
+    color: #A2D2FF;
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
